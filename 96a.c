@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-int a,i,count=0;
+int z,i,count=0;
 printf("enter the value\n");
-scanf("%d",&a);
-for(i=2;i<=(a/2);i++)
+scanf("%d",&z);
+for(i=2;i<=(z/2);i++)
 {
-if(a%i==0)
+if(z%i==0)
 {
 count++;
 }
